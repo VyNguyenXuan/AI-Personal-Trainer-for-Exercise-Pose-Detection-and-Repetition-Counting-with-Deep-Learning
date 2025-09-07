@@ -1,6 +1,8 @@
 # AI-Personal-Trainer-for-Exercise-Pose-Detection-and-Repetition-Counting-with-Deep-Learning
 AI models (Yolov8 or Bi-LSTM ) with in built simple exercise error detection as well as repitition counting and a local web host
-The team started this out as a project for university graduation but we are still working on this to try making it into a full app for such so the current 2 model might not be out final best result, anything can change
+The team started this out as a project for university graduation but we are still working on this to try making it into a full app for such so the current 2 model might not be out final best result, anything can change.
+
+All the details is in the Document
 # Models
 # 1.Bi-LSTM + Attention
 To run this, it will require you to run the finallized-mediapipe-demo.ipynb to train a new weight depends on what exercise you want to train. Details on how to do so is included in the document.
@@ -11,4 +13,8 @@ One thing to note is this code does not rely on GPU so if you want to hasten you
 
 # 2.Yolov8s
 Same thing as the first model but now if you want to train, use the train_GGcolab.ipynb 
+Running this by yolo_demo.ipynb
 Note that is code DOES rely on GPU to run smoothly, so be careful with this.
+
+# Important note 
+These 2 models only have exercise recognition with a slight thing for rep counting or error detecting, not our entire code, this code size is too big to be uploaded to Git Hub so you will have to figure out how to do these base on the bits left in these codes.
